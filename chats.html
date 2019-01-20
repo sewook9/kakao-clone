@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Chats</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_top">
+        <div class="header_colum">
+          <i class="fa fa-fighter-jet" aria-hidden="true"></i>
+          <i class="fa fa-wifi" aria-hidden="true"></i>
+        </div>
+        <div class="header_colum"><span class="header_time">18:38</span></div>
+        <div class="header_colum">
+          <i class="fa fa-moon-o" aria-hidden="true"></i>
+          <i class="fa fa-bluetooth-b" aria-hidden="true"></i>
+          <span class="header_battery"
+            >66% <i class="fa fa-battery-full" aria-hidden="true"></i>
+          </span>
+        </div>
+        <div class="header_bottom"></div>
+        <div class="header_colum"><span class="header_text">Edit</span></div>
+        <div class="header_colum">
+          <span class="header_text"
+            >Chats <i class="fa fa-caret-down"></i
+          ></span>
+        </div>
+        <div class="header_colum"></div>
+      </div>
+    </header>
+    <main class="chats">
+      <div class="search-bar">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Find friends, chats, Plus Friends">
+      </div>
+      <ul class="chats_list">
+        <li class="chats_chat">
+          <div class="chat_content">
+            <img src="images/mac.jpg">
+            <div class="chat_privew">
+              <h3 class="chat_user">LYNN</h3>
+              <span class="chat-last-message">Hello! this is a test message.</span>
+          </div>
+          <span class="chat_date-time">
+            15:55
+          </span>
+        </li>
+      </ul>
+      <ul class="chats_list">
+        <li class="chats_chat">
+          <div class="chat_content">
+            <img src="images/lamp_off.png">
+            <div class="chat_privew">
+              <h3 class="chat_user">Kakao talk</h3>
+              <span class="chat-last-message">you logged kakao.</span>
+          </div>
+          <span class="chat_date-time">
+            Jul 29
+          </span>
+      </ul>
+      <div class="chat_btn">
+        <i class="fa fa-comment"></i>
+
+      </div>
+
+    </main>
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar_tab">
+        <i class="fa fa-user"></i><span class="tab-bar_title">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar_tab tab-bar_tab--selected">
+        <i class="fa fa-comment"></i><span class="tab-bar_title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar">
+        <i class="fa fa-search"></i><span class="tab-bar_title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar">
+        <i class="fa fa-ellipsis-h"></i><span class="tab-bar_title">More</span>
+      </a>
+    </nav>
+  </body>
+</html>
