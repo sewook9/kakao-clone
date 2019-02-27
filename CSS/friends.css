@@ -1,0 +1,30 @@
+.firends_section .friends_section-header {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding: 10px 0;
+  font-size: 12px;
+  color: #b4b4b4;
+}
+
+.friends_section_row .friends_section_row {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.firends_section-row img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.firends_section-colum {
+  display: flex;
+  align-items: center;
+}
+
+.firends_section-tagline {
+  font-size: 12px;
+  background: #f0f0f0;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
